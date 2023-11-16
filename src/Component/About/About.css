@@ -1,0 +1,43 @@
+.ServicesWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.innerContent{
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(180px , orange,transparent 90%);
+  position:relative;
+  border-radius: 50%;
+  border: 1.5px solid red;
+
+  animation:rotation 10s linear 1s infinite ;
+}
+
+.first{
+
+  position: absolute;
+  top: -9%;
+  left: 41%;
+}
+
+.second{
+
+  position: absolute;
+  top: 41.5%;
+  right: -8%;
+}
+
+.third{
+  position: absolute;
+  bottom: -10%;
+  left: 41%;
+
+}
+
+.four{
+  position: absolute;
+  left: -8%;
+  top: 41%;
+}
