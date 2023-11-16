@@ -5,11 +5,11 @@
 } 
 
 .innerContent{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background: radial-gradient(180px , orange,transparent 90%);
   position:relative;
-  border-radius: 50%;
+  border-radius: 40%;
   border: 1.5px solid red;
 
   animation:rotation 10s linear 1s infinite ;
@@ -40,4 +40,10 @@
   position: absolute;
   left: -8%;
   top: 41%;
+}
+
+@keyframes rotation{
+  100%{
+    transform:rotate(360deg);
+  }
 }

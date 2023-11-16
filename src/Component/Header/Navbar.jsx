@@ -49,7 +49,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href="/" className="px-14">
+          <Link href="/" className="px-24">
             <img
               className="h-[65px]"
               src="https://i.ibb.co/ggBWcxT/Whats-App-Image-2023-11-09-at-8-30-1.png"
