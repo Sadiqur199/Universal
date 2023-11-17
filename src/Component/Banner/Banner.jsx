@@ -2,11 +2,11 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="">
+    <div>
       <div className="carousel w-full ">
         <div
           id="item1"
-          className="carousel-item w-full h-[500px] "
+          className="carousel-item w-full h-[400px] "
           style={{
             backgroundImage:
               'url("https://i.ibb.co/yyj0pD1/Screenshot-2023-11-12-074504-1.png")',
@@ -21,7 +21,7 @@ const Banner = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="px-24 mt-32">
+            <div className="md:px-24 px-3 mt-32">
               <h1 className="font-bold text-2xl">
                 Rice Mill Manufacturing <br /> Machine
               </h1>
@@ -36,8 +36,8 @@ const Banner = () => {
         </div>
 
         <div
-          id="item1"
-          className="carousel-item w-full h-[500px] "
+          id="item2"
+          className="carousel-item w-full h-[400px] "
           style={{
             backgroundImage:
               'url("https://i.ibb.co/yyj0pD1/Screenshot-2023-11-12-074504-1.png")',
@@ -52,7 +52,7 @@ const Banner = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="px-24 mt-32">
+            <div className="md:px-24 px-3 mt-32">
               <h1 className="font-bold text-2xl">
                 Rice Mill Manufacturing <br /> Machine
               </h1>
@@ -67,8 +67,8 @@ const Banner = () => {
         </div>
 
         <div
-          id="item1"
-          className="carousel-item w-full h-[500px] "
+          id="item3"
+          className="carousel-item w-full h-[400px] "
           style={{
             backgroundImage:
               'url("https://i.ibb.co/yyj0pD1/Screenshot-2023-11-12-074504-1.png")',
@@ -83,7 +83,7 @@ const Banner = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="px-24 mt-32">
+            <div className="md:px-24 px-3 mt-32">
               <h1 className="font-bold text-2xl">
                 Rice Mill Manufacturing <br /> Machine
               </h1>
@@ -98,8 +98,8 @@ const Banner = () => {
         </div>
 
         <div
-          id="item1"
-          className="carousel-item w-full h-[500px] "
+          id="item4"
+          className="carousel-item w-full h-[400px] "
           style={{
             backgroundImage:
               'url("https://i.ibb.co/yyj0pD1/Screenshot-2023-11-12-074504-1.png")',
@@ -114,7 +114,7 @@ const Banner = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="px-24 mt-32">
+            <div className="md:px-24 px-3 mt-32">
               <h1 className="font-bold text-2xl">
                 Rice Mill Manufacturing <br /> Machine
               </h1>

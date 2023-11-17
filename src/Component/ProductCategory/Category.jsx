@@ -41,7 +41,7 @@ const Category = () => {
 
 
   return (
-    <div className="grid grid-cols-3 gap-4 rounded-lg w-1/2 text-center mx-auto mt-14">
+    <div className="grid md:grid-cols-3 gap-4 rounded-lg w-1/2 text-center mx-auto mt-14">
       {allProducts.map((product) => (
         // Render each product as a hero component
         <div

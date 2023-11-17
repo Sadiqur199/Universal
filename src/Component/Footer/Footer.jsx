@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div>
     <div className="bg-[#D9D9D9]">
-      <div className="flex ">
+      <div className="md:flex ">
         <div
-          className="py-20 px-32 w-[800px]"
+          className="py-20 md:px-32 px-3 w-[800px]"
           style={{
             backgroundImage: 'url("https://i.ibb.co/t49zNZR/Rectangle-9.png")',
             backgroundSize: "cover",
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="py-20 px-20 ">
+        <div className="py-20 md:px-20 px-3">
           <h1 className="font-bold text-3xl mb-5">
             Send Message
           </h1>
@@ -51,10 +51,10 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <div className="bg-[#2F2F2F] px-24 py-10">
-       <div className="flex justify-between">
+    <div className="bg-[#2F2F2F] px-3 md:px-24 py-10">
+       <div className="md:flex justify-between ">
         <div>
-        <h1 className="font-bold text-xl text-white">© All Right Reverved -2023</h1>
+        <h1 className="font-bold text-xl text-white md:mb-0 mb-3">© All Right Reverved -2023</h1>
         </div>
         <div>
           <h2 className="font-bold text-xl text-white">Universal International-2023</h2>

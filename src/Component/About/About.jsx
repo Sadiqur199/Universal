@@ -2,9 +2,9 @@ import React from "react";
 // import './About.css'
 const About = () => {
   return (
-    <div className="px-24 mt-24 bg-[#F0F0F0] py-20">
+    <div className="md:px-24 px-3  mt-24 bg-[#F0F0F0] py-20 md:pb-[80px] pb-[270px]">
       <h1 className="font-bold text-3xl mb-5">About Us</h1>
-      <div className="flex text-justify mr-[200px]">
+      <div className="md:flex md:text-justify md:mr-[200px]">
         <div>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
@@ -28,16 +28,16 @@ const About = () => {
             <span className="text-blue-500 underline">Read More</span>
           </p>
         </div>
-        <div className="ml-72 flex justify-center items-center">
-          <div className="w-[250px] h-[250px] bg-gradient-to-b to-transparent bg-radial absolute rounded-full border-[1.8] border-gray-500">
+        <div className=" md:ml-72 flex justify-center items-center">
+          <div className="md:w-[250px] w-[200px] h-[200px] md:h-[250px] md:mt-0 mt-[270px] bg-gradient-to-b to-transparent bg-radial absolute rounded-full border-[1px] border-gray-500">
             <div className="absolute top-[-9%] left-[41%]">
-              <img className="h-20 w-20" src="https://i.ibb.co/6Rcx91n/i1.png" alt="sadiq" />
+              <img className="md:h-20 md:w-20 w-14 h-14" src="https://i.ibb.co/6Rcx91n/i1.png" alt="sadiq" />
             </div>
             <div className="absolute top-[41.5%] right-[-5%]">
-              <img className="h-20 w-20" src="https://i.ibb.co/5Lx0LR1/i2.png" alt="sadiq" />
+              <img className="md:h-20 md:w-20 w-14 h-14" src="https://i.ibb.co/5Lx0LR1/i2.png" alt="sadiq" />
             </div>
             <div className="absolute bottom-[25%] left-[-10%]">
-              <img className="h-20 w-20" src="https://i.ibb.co/1zr7fJR/image-2.png" alt="sadiq" />
+              <img className="md:h-20 md:w-20 w-14 h-14" src="https://i.ibb.co/1zr7fJR/image-2.png" alt="sadiq" />
             </div>
           </div>
         </div>
