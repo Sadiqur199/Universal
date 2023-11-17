@@ -4,6 +4,7 @@ import Category from '@/Component/ProductCategory/Category'
 
 
 export default function Home() {
+
   return (
     <main className="">
       <div>
